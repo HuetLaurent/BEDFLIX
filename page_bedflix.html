@@ -4,11 +4,18 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="page_bedflix.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
         <title>Bedflix</title>
     </head>
     <body>
+
+            <!--header-->
+
         <nav class="navbar navbar-expand-lg bg-black">
             <div class="container-fluid">
                 <a class="navbar-brand ms-4" href="#">
@@ -32,12 +39,64 @@
                             <a class="nav-link disabled">Disabled</a>
                         </li>
                     </ul>
-                    <form class="d-flex border-3 bg-danger border-white" role="search">
-                        <img class="btn rounded-0 " src="./Vector_mag.png" alt="mag" type="submit">
-                        <input class="form-control rounded-0" type="search" placeholder="Titre, genres, ..." aria-label="Search">
+                    <form class="d-flex me-4 " role="search">
+                        <img class="btn rounded-0 border-end-0 border-white border-3" src="./Vector_mag.png" alt="mag" type="submit">
+                        <input class="form-control rounded-0 border-start-0 borderwhite border-3" id="recherche" type="search" placeholder="Titre, genres, ..." aria-label="Search">
                     </form>
+                    <img class="me-4" src="./Vector_ping.png" alt="Bedflix" width="35" height="40"><br/>
+                    <img class="me-5" src="./Avatar.png" alt="Bedflix" width="70" height="70">
                 </div>
             </div>
         </nav>
+
+            <!--main-->
+
+        <div id="logo">
+            <img src="./b logo.png" alt="B">
+            <h1 class="text-white">SÉRIE</h1>
+        </div>
+
+        <img id="jumanjititre" src="./Jumanji_logo.png" alt="Jumanji">
+
+        <div id="description">
+            <h3 class="text-white fw-bold">Regardez la première Saison !</h3>
+            <p class="text-white fw-normal">consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue</p>
+        </div>
+
+        <div id="jumanji" class="container-fluid">
+            <div class="row">
+                <div class="col-6 col-lg-12 p-0">       
+                    <img src="./Jumanji.png" alt="Jumanji" style="width: 100vw;"> 
+                </div>
+            </div>
+        </div>  
+
+            <!--carouselle-->
+
+        <div id="carouselExample" class="carousel slide" style="width: 100vw;">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./card0.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./card1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./card2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./card3.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
     </body>
 </html>

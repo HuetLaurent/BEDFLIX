@@ -1,0 +1,56 @@
+#jumanji {
+    position: absolute;
+    top: 105px;
+    z-index: -1;
+}
+
+#logo {
+    position: absolute;
+    top: 185px;
+    left: 85px;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 25px;
+}
+
+#jumanjititre {
+    position: absolute;
+    top: 335px;
+    left: 125px;
+}
+
+#description {
+    position: absolute;
+    top: 435px;
+    left: 85px;
+    width: 600px;
+    height: 200px;
+}
+
+h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+}
+
+#carouselExample {
+    position: absolute;
+    
+}
+
+#degrade {
+    width: 100vw;
+    position:absolute;
+    top: 650px;
+    left: 0;
+    height: 225px;
+    background-image: linear-gradient(180deg, rgba(20, 20, 20, 0) 0%, #141414 7.81%);
+}
